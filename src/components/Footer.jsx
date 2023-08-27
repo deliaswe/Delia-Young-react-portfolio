@@ -1,5 +1,4 @@
-import { FontAwesonIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faTwitter } from 'react-icons/fa';
 import '../style/Footer.css';
 
 // array of social media links
@@ -32,26 +31,21 @@ const Footer = () => {
                 <section className='social-media-icons-wrapper d-flex justify-content-center'>
                     {socialMedia.map(({ name, link, icon, color }) => (
                         <div
-                        key={name}
-                        className='d-flex flex-column align-items-center mx-md-2 transparent-bg'
+                            key={name}
+                            className='d-flex flex-column align-items-center mx-md-2 transparent-bg'
                         >
                             <a
-                            href={link}
-                            className={`icon ${name}`}
-                        target='_blank'
-                    rel='noreferrer'
-                    >
-                    <FontAwesomeIcon 
-                    icon={icon}
-                    bounce
-                    classNmae='footer-icon-size'
-                    style={{ color: color }}
-                    />
-                    </a>
-                    <a href={link} target='_blank' rel='noreferrer'>
-                        <span className='d-inline-block text'>{name}</span>
-                    </a>
-                    </div>
+                                href={link}
+                                className={`icon ${name}`}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                {icon({ size: '2x', color: color })}
+                            </a>
+                            <a href={link} target='_blank' rel='noreferrer'>
+                                <span className='d-inline-block text'>{name}</span>
+                            </a>
+                        </div>
                     ))}
                 </section>
                 <section className='form-footer'>

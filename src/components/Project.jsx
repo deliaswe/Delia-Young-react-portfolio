@@ -1,9 +1,10 @@
+import PropTypes from 'prop-types';
 import '../style/Project.css';
 
-// define Project component
+// Define Project component
 function Project(props) {
     return (
-        // card container for each project
+        // Card container for each project
         <div className='card'>
             <h5 className='card-title'>{props.title}</h5>
             <a href={props.deployed} target='_blank' rel='noreferrer'>
@@ -32,5 +33,16 @@ function Project(props) {
     );
 }
 
-// export Project component
+// Define prop types for the component
+Project.propTypes = {
+    title: PropTypes.string.isRequired,
+    deployed: PropTypes.string.isRequired,
+    imgSrc: PropTypes.string.isRequired,
+    imgAlt: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    deployedLink: PropTypes.string.isRequired,
+    githubLink: PropTypes.string.isRequired,
+};
+
+// Export Project component
 export default Project;
