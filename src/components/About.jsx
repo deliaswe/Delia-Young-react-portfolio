@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import avator from '../images/headshot.jpg';
 import '../style/About.css';

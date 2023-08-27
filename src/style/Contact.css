@@ -1,0 +1,27 @@
+/* styling for the header element  in the contact section */
+.contact-header {
+text-align: center;
+margin-top: 1rem;
+margin-bottom: 1rem;
+font-size: 50px;
+}
+/* styling for the custom send message buttom */
+.custom-send-message-button {
+background-color: #e558a8;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+font-size: 16px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+transition-duration: 0.4s;
+}
+/* styling for the custom send message buttom when hovered over */
+.custom-send-message-button:hover {
+background-color: #e8da41;
+color: white;
+}
