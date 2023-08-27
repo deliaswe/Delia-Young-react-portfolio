@@ -17,16 +17,6 @@ function About() {
                     >
                         <Image src={avator} rounded fluid className='about-image' />
                     </Col>
-                    <Marquee
-                        gradient={false}
-                        speed={60}
-                        pauseOnHover={true}
-                        pauseOnClick={true}
-                        delay={0}
-                        play={true}
-                        directions='left'
-                        >
-                        </Marquee>
                     <Col xs={12} md={8}>
                         <Card>
                             <Card.Body>
@@ -34,10 +24,31 @@ function About() {
                                     About Delia Young
                                 </Card.Title>
                                 <Card.Text>
-                                    Delia Young, a passionate and creative software developer with a background in the healthcare and interior architecture, is a recent graduate of Columbia University Full Stack Web Development Bootcamp. I am highly motivated and detail-oriented individual with a passion for learning and a strong desire to create. I am a team player who is able to work well with others and is always looking for ways to improve my skills and knowledge. I am excited to combine my love of architect and design, healthcare, and technology to create beautiful and functional web applications.
+                                Meet Delia Young—an enthusiastic and innovative software developer with a unique blend of experience in healthcare and interior architecture. Freshly minted from the Columbia University Full Stack Web Development Bootcamp, I bring an unwavering drive and meticulousness to everything I undertake. My insatiable curiosity fuels both my love for learning and my ardent creative spirit.
+                            </Card.Text>
+                            <Card.Text>
+                                A collaborative team player by nature, I thrive in group settings, constantly seeking ways to refine my skills and expand my knowledge horizons. My journey has equipped me with a distinctive perspective, one that seamlessly fuses my passions: the artistry of architecture and design, the critical realm of healthcare, and the ever-evolving landscape of technology. This fusion drives me to craft web applications that effortlessly marry elegance with functionality. 
+                            </Card.Text>
+                            <Card.Text>
+                                Let's embark on this exciting expedition of creativity, purpose, and innovation together.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={12}>
+                        <Marquee
+                            gradient={false}
+                            speed={60}
+                            pauseOnHover={true}
+                            pauseOnClick={true}
+                            delay={0}
+                            play={true}
+                            directions='left'
+                        >
+                            {/* gradient background colour */}
+                        </Marquee>
                     </Col>
                 </Row>
             </Container>
