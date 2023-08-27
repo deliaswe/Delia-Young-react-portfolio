@@ -15,19 +15,19 @@ function Contact() {
     // handle name input change
     const handleNameChange = (e) => {
         setName(e.target.value);
-    setNameError(false);
+        setNameError(false);
     };
 
     // handle email input change
     const handleEmailChange = (e) => {
         setEmail(e.target.value);
-    setEmailError(false);
+        setEmailError(false);
     };
 
     // handle message input change
     const handleMessageChange = (e) => {
         setMessage(e.target.value);
-    setMessageError(false);
+        setMessageError(false);
     };
 
     // email validation using regex
@@ -64,24 +64,24 @@ function Contact() {
         }
     };
 
-    // render Contact section
-    return (
-        <section id='contact'>
-            <Container>
-                <Row>
-                    <Col lg={8} className='mx-auto'>
-                        <h2 claassName='contact-header'>Contact Me</h2>
-                        {messageSent 
-                        && (
-                            <div className='alert alert-success' role='alert'>
-                                Your message was sent successfully!
-                            </div>
-                        )}
-                        <Form onSubmit={handleSubmit} noValidate>
+// render Contact section
+return (
+    <section id='contact'>
+        <Container>
+            <Row>
+                <Col lg={8} className='mx-auto'>
+                    <h2 className='contact-header'>Contact Me</h2>
+                    {messageSent && (
+                        <div className='alert alert-success' role='alert'>
+                            Your message was sent successfully!
+                        </div>
+                    )}
+                    <Form onSubmit={handleSubmit} noValidate>
+                        <Form.Group>
                             <Form.Label htmlFor='name'>Name</Form.Label>
                             <Form.Control
                                 type='text'
-                                className={nameError ? 'error' : ""}
+                                className={nameError ? 'error' : ''}
                                 id='name'
                                 name='name'
                                 value={name}
@@ -91,14 +91,14 @@ function Contact() {
                             {nameError && (
                                 <div className='invalid-feedback'>
                                     Please enter your name.
-                                    </div>
-                                    )}
-                                    </Form.Group>
-                                    <Form.Group>
-                                    <Form.Label htmlFor='email'>Email</Form.Label>
+                                </div>
+                            )}
+                        </Form.Group>
+                        <Form.Group>
+                            <Form.Label htmlFor='email'>Email</Form.Label>
                             <Form.Control
                                 type='email'
-                                className={emailError ? 'is-invalid' : ""}
+                                className={emailError ? 'is-invalid' : ''}
                                 id='email'
                                 name='email'
                                 value={email}
@@ -112,15 +112,15 @@ function Contact() {
                             )}
                             </Form.Group>
                             <Form.Group>
-                            <Form.Label htmlFor='message'>Message</Form.Label>
-                            <Form.Control
-                                as='textarea'
-                                className={messageError ? 'is-invalid' : ""}
-                                id='message'
-                                name='message'
-                                rows={5}
-                                value={message}
-                                onChange={handleMessageChange}
+                                <Form.Label htmlFor='message'>Message</Form.Label>
+                                <Form.Control
+                                    as='textarea'
+                                    className={messageError ? 'is-invalid' : ''}
+                                    id='message'
+                                    name='message'
+                                    rows={5}
+                                    value={message}
+                                    onChange={handleMessageChange}
                                 />
                                 {messageError && (
                                     <div className='invalid-feedback'>
