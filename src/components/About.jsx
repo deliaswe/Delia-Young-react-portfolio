@@ -1,5 +1,5 @@
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
-import avator from '../images/headshot.jpg';
+import Avator from './images/headshot.jpg'
 import Marquee from 'react-fast-marquee';
 import '../style/About.css';
 
@@ -15,7 +15,7 @@ function About() {
                     md={4}
                     className='d-flex justify-content-center align-items-center mb-4 mb-md-0'
                     >
-                        <Image src={avator} rounded fluid className='about-image' />
+                        <Image src={Avator} rounded fluid className='about-image' />
                     </Col>
                     <Col xs={12} md={8}>
                         <Card>
@@ -27,10 +27,7 @@ function About() {
                                 Meet Delia Young—an enthusiastic and innovative software developer with a unique blend of experience in healthcare and interior architecture. Freshly minted from the Columbia University Full Stack Web Development Bootcamp, I bring an unwavering drive and meticulousness to everything I undertake. My insatiable curiosity fuels both my love for learning and my ardent creative spirit.
                             </Card.Text>
                             <Card.Text>
-                                A collaborative team player by nature, I thrive in group settings, constantly seeking ways to refine my skills and expand my knowledge horizons. My journey has equipped me with a distinctive perspective, one that seamlessly fuses my passions: the artistry of architecture and design, the critical realm of healthcare, and the ever-evolving landscape of technology. This fusion drives me to craft web applications that effortlessly marry elegance with functionality. 
-                            </Card.Text>
-                            <Card.Text>
-                                Let's embark on this exciting expedition of creativity, purpose, and innovation together.
+                                A collaborative team player by nature, I thrive in group settings, constantly seeking ways to refine my skills and expand my knowledge horizons. My journey has equipped me with a distinctive perspective, one that seamlessly fuses my passions: the artistry of architecture and design, the critical realm of healthcare, and the ever-evolving landscape of technology. This fusion drives me to craft web applications that effortlessly marry elegance with functionality. I am excited to bring my unique skill set to a team that values creativity, collaboration, and innovation.
                                 </Card.Text>
                             </Card.Body>
                         </Card>

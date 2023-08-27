@@ -9,19 +9,16 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import Home from './components/Home';
-import Error from './components/Error';
-
+import  Project from './components/Project';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <Error />,
     children: [
       {
-        index: true,
-        element: <Home />,
+        path: '/Project',
+        element: <Project />,
       },
       {
         path: '/About',
