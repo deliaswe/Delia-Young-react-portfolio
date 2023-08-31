@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -6,36 +6,36 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+// import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Resume from './components/Resume';
-import  Project from './components/Project';
+//import Resume from './components/Resume';
+// import  Project from './components/Project';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
     children: [
-      {
-        path: '/Project',
-        element: <Project />,
-      },
+      // {
+        // path: '/Project',
+        // element: <Project />,
+      // },
       {
         path: '/About',
         element: <About />,
       },
-      {
-        path: '/Portfolio',
-        element: <Portfolio />,
-      },
+      // {
+        // path: '/Portfolio',
+      // element: <Portfolio />,
+      // },
       {
         path: '/Contact',
         element: <Contact />,
       },
-      {
-        path: '/Resume',
-        element: <Resume />,
-      },
+      // {
+        // path: '/Resume',
+        // element: <Resume />,
+      // },
     ],
   },
 ]);
