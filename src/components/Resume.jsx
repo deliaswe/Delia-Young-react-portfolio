@@ -1,19 +1,19 @@
-import {Container, Row, Col, Button} from 'react-bootstrap';
+import {Container, Row, Col } from 'react-bootstrap';
 import '../style/Resume.css';
-import PDF from '../assets/DeliaYoungResume.pdf';
+// import ResumeImageSource from '../assets/images/Delia.resume.';
 
 // resume component
 function Resume() {
     return (
-        <section id='resune' className='resume-margin'>
-            <Container className='reume-section'>
+        <section id='resume' className='resume-margin'>
+            <Container className='resume-section'>
                 <Row>
                     <Col className='text-center'>
                         <h1>Resume</h1>
                         <hr className='star-primary'/>
-                        <Button variant='dark' href={PDF} download>
-                            Download Resume
-                        </Button>
+                        {/* <Button variant='dark' href={} download> */}
+                            {/* Download Resume */}
+                        {/* </Button> */}
                     </Col>
                     </Row>
                     <Row>
@@ -90,7 +90,7 @@ function Resume() {
                                     <h3>Experience</h3>
                                     <hr className='star-secondary'/>
                                     <div className='resume-item'>
-                                    <h4>Atlantic Health Systems, Clinical Lab Assistant I</h4>
+                                    <h4>Atlantic Health System, Clinical Lab Assistant I</h4>
                                     <h5>Morriston, NJ, Nov 2022 - Present</h5>
                                     <p>
                                     write a description here
@@ -104,15 +104,15 @@ function Resume() {
                                     </p>
                                     </div>
                                     <div className='resume-item'>
-                                    <h4>Atlantic Health Systems, Clinical Lab Assistant I</h4>
+                                    <h4>Atlantic Health System, Clinical Lab Assistant I</h4>
                                     <h5>Morriston, NJ, May 2015 - Mar 2022</h5>
                                     <p>
                                     write a description here
                                     </p>
                                     </div>
                                     <div className='resume-item'>
-                                    <h4>Virtua Heatlh, Phlebotomist</h4>
-                                    <h5>Mt Holly, NJ, Apr 2012 - Aug 2015</h5>
+                                    <h4>Englewood Hospital, Phlebotomist</h4>
+                                    <h5>Englewood, NJ, Mar 2013 - Apr 2017</h5>
                                     <p>
                                     write a description here
                                     </p>

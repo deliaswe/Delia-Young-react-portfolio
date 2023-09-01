@@ -49,7 +49,7 @@ const Footer = () => {
                     ))}
                 </section>
                 <section className='form-footer'>
-                    <h5 className='designer-text'>Designed by Delia Young</h5>
+                    <h5 className='designer-text'>Designed by 👩🏾‍🎨 Delia Young</h5>
                         <h6 className='copyright-text'>&copy; {new Date().getFullYear()} All rights reserved.</h6>
                 </section>
             </div>
