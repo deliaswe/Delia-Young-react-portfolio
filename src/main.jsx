@@ -8,7 +8,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './components/About';
 // import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-//import Resume from './components/Resume';
+import Resume from './components/Resume';
 // import  Project from './components/Project';
 
 const router = createBrowserRouter([
@@ -32,10 +32,10 @@ const router = createBrowserRouter([
         path: '/Contact',
         element: <Contact />,
       },
-      // {
-        // path: '/Resume',
-        // element: <Resume />,
-      // },
+      {
+        path: '/Resume',
+        element: <Resume />,
+      },
     ],
   },
 ]);

@@ -7,16 +7,16 @@ font-size: 50px;
 }
 /* styling for the custom send message buttom */
 .custom-send-message-button {
-background-color: #e558a8;
+background-color: #d3b2c4;
 color: white;
 border: none;
-border-radius: 5px;
-padding: 10px 20px;
-font-size: 16px;
+border-radius: 10px;
+padding: 15px 20px;
+font-size: 18px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-margin: 4px 2px;
+margin: 6px 4px;
 cursor: pointer;
 transition-duration: 0.4s;
 }

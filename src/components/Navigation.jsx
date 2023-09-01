@@ -8,7 +8,7 @@ const Navigation = () => {
         // bootstrap navbar
         <Navbar bg="dark" variant='dark' expand="lg" sticky="top" className='py-0.5 mt-0'>
             <Container>
-                <Navbar.Brand as={Link} to='/'>Delia Young</Navbar.Brand>
+                <Navbar.Brand as={Link} to='/'>Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className='ms-auto'>

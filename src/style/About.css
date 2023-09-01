@@ -15,15 +15,15 @@
 }
 /* font styling for text */
 .card-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 18px;
     line-height: 1.5;
     text-align: justify;
 text-justify: inter-word;
 }
 /* font styling for header */
 .card-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Bodoni', serif;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
@@ -31,4 +31,22 @@ text-justify: inter-word;
 /* styling for the about section container */
 #about {
 margin-bottom: 12rem;
+}
+/* tablet view */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about-image {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+}
+/* desktop view */
+@media (min-width: 1025px) {
+    .about-image {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+    }
 }
