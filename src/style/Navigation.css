@@ -1,0 +1,19 @@
+/* navbar toggler */
+.navbar-toggler {
+border-color: gradient(90deg, rgb(223, 223, 231) 0%, rgb(193, 27, 198) 0%, rgba(0,212,255,1) 100%);
+}
+/* navbar toggler icon */
+.navbar-toggler-icon {
+background-color: #000000;
+}
+/* background color and text color for body element */
+body {
+background-color: #cd4242;
+color: var(--text-color);
+}
+/* nav link when hovered over */
+.nav-link-highlight:hover {
+color: #000000;
+text-decoration: none;
+background-color: gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}

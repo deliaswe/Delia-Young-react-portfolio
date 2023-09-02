@@ -1,6 +1,5 @@
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
-import Avator from './images/headshot.jpg'
-import Marquee from 'react-fast-marquee';
+import Avator from './images/headshot.jpg';
 import '../style/About.css';
 
 function About() {
@@ -12,12 +11,12 @@ function About() {
                 <Row>
                     <Col
                     xs={12}
-                    md={4}
+                    md={5}
                     className='d-flex justify-content-center align-items-center mb-4 mb-md-0'
                     >
                         <Image src={Avator} rounded fluid className='about-image' />
                     </Col>
-                    <Col xs={12} md={8}>
+                    <Col xs={12} md={7}>
                         <Card>
                             <Card.Body>
                                 <Card.Title className='text-center mb-4'>
@@ -35,17 +34,6 @@ function About() {
                 </Row>
                 <Row>
                     <Col xs={12}>
-                        <Marquee
-                            gradient={false}
-                            speed={60}
-                            pauseOnHover={true}
-                            pauseOnClick={true}
-                            delay={0}
-                            play={true}
-                            directions='left'
-                        >
-                            {/* gradient background colour */}
-                        </Marquee>
                     </Col>
                 </Row>
             </Container>

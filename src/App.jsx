@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <div className='container mt-5'>
+        <div className='container'>
           <Outlet />
         </div>
         <Footer />

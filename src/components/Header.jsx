@@ -7,7 +7,7 @@ import '../style/Header.css';
 function Header() {
     return (
         <>
-            <Container fluid className='bg-'>
+            <Container fluid className='bg'>
                 <Row className='justify-content-center text-center mb-0'>
                     <Col className='pb-0'>
                         <h1 className='text-black' style={{ fontSize: '80px' }}>

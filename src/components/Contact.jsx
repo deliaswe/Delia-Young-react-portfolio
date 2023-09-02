@@ -69,7 +69,7 @@ return (
     <section id='contact'>
         <Container>
             <Row>
-                <Col lg={8} className='mx-auto'>
+                <Col lg={14} className='mx-auto'>
                     <h2 className='contact-header'>Contact Me</h2>
                     {messageSent && (
                         <div className='alert alert-success' role='alert'>
@@ -118,7 +118,7 @@ return (
                                     className={messageError ? 'is-invalid' : ''}
                                     id='message'
                                     name='message'
-                                    rows={5}
+                                    rows={8}
                                     value={message}
                                     onChange={handleMessageChange}
                                 />
