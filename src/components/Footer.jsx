@@ -1,4 +1,4 @@
-// import { faGithub, faLinkedin, faTwitter } from 'react-icons/fa';
+//import { faGithub, faLinkedin, faTwitter } from 'react-icons/fa';
 import '../style/Footer.css';
 
 // array of social media links
@@ -6,20 +6,20 @@ const socialMedia = [
     {
         name: 'Github',
         link: 'https://github.com/deliaswe',
-       // icon: faGithub,
-        color: '#211F1F',
+        //icon: faGithub,
+        //color: '#211F1F',
     },
     {
         name: 'LinkedIn',
         link: 'https://www.linkedin.com/in/delia-young-662801100/',
-       // icon: faLinkedin,
-        color: '#0A66C2',
+        //icon: faLinkedin,
+        //color: '#0A66C2',
     },
     {
         name: 'Twitter X',
         link: 'https://twitter.com/Delia_marlena_',
         //icon: faTwitter,
-        color: '#1DA1F2',
+        //color: '#1DA1F2',
     },
 ];
 

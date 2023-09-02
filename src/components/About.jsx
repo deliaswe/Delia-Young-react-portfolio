@@ -11,7 +11,7 @@ function About() {
                 <Row>
                     <Col
                     xs={12}
-                    md={5}
+                    md={4}
                     className='d-flex justify-content-center align-items-center mb-4 mb-md-0'
                     >
                         <Image src={Avator} rounded fluid className='about-image' />
