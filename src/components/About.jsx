@@ -20,7 +20,7 @@ function About() {
                         <Card>
                             <Card.Body>
                                 <Card.Title className='text-center mb-4'>
-                                    About Delia Young
+                                    About Delia Young 
                                 </Card.Title>
                                 <Card.Text>
                                 Meet Delia Young—an enthusiastic and innovative software developer with a unique blend of experience in healthcare and interior architecture. Freshly minted from the Columbia University Full Stack Web Development Bootcamp, I bring an unwavering drive and meticulousness to everything I undertake. My insatiable curiosity fuels both my love for learning and my ardent creative spirit.

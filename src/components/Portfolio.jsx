@@ -4,7 +4,7 @@ import sqlemployeetracker from "./images/sql-employee-tracker.png";
 import WeatherDashboard from "./images/WeatherDashboard.png";
 import WorkDayPlanner from "./images/WorkDayPlanner.png";
 import NoteTaker from "./images/NoteTaker.png";
-//import mealflick from "../images/meal-flick.png";
+import MealFlick from "./images/MealFlick.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/Portfolio.css';
 
@@ -47,12 +47,12 @@ function Portfolio() {
                             deployedLink: 'https://delia-note-taker-425424db1210.herokuapp.com/',
                             githubLink: 'https://github.com/deliaswe/note-taker',
                         },
-                        //{
-                            //title: 'MealFlick',
-                            //imgSrc: mealflick,
-                            //deployedLink: ' https://vlada-caban.github.io/meal-flick/',
-                           //githubLink: 'https://github.com/deliaswe/meal-flick',
-                        //},
+                        {
+                            title: 'MealFlick',
+                            imgSrc: MealFlick,
+                            deployedLink: ' https://vlada-caban.github.io/meal-flick/',
+                            githubLink: 'https://github.com/deliaswe/meal-flick',
+                        },
                     ].map((project, index) => (
                         // div container for each project
                         <div className='col-12 col-md-6 col-lg-4 my-2' key={index}>

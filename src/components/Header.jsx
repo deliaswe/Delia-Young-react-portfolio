@@ -10,9 +10,9 @@ function Header() {
             <Container fluid className='bg'>
                 <Row className='justify-content-center text-center mb-0'>
                     <Col className='pb-0'>
-                        <h1 className='text-black' style={{ fontSize: '80px' }}>
+                        <h1 className='text-black' style={{ fontSize: '65px' }}>
                             <Link to='/Delia-Young-Portfolio' className='text-black text-decoration-none' style={{ margin: '0' }}>
-                                Delia Young 👩🏾‍💻
+                                Delia Young 👩🏾‍💻 Software Developer
                             </Link>
                         </h1>
                     </Col>
