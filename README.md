@@ -25,7 +25,7 @@
 
 
 ## Links
-- You can view the live portfolio website here: [Delia Young Portfolio](https://github.com/deliaswe)
+- You can view the live portfolio website here: [Delia Young Portfolio]()..delia
 
 ## Technologies
 - This portfolio is built using the following technologies and libraries:
