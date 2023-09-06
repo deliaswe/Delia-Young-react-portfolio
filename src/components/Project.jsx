@@ -36,7 +36,7 @@ function Project(props) {
 // Define prop types for the component
 Project.propTypes = {
     title: PropTypes.string.isRequired,
-    deployed: PropTypes.string.isRequired,
+    // deployed: PropTypes.string.isRequired,
     imgSrc: PropTypes.string.isRequired,
     imgAlt: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
