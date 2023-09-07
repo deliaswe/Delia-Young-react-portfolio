@@ -25,7 +25,7 @@
 https://github.com/deliaswe/Delia-Young-react-portfolio/assets/113808453/ab2c6618-427e-46db-ac4e-e513f14b1fc
 
 ## Links
-- You can view the live portfolio website here: [Delia Young Portfolio](link goes here)
+- You can view the live portfolio website here: [Delia Young Portfolio](musical-twilight-14c777.netlify.app)
 
 ## Technologies
 - This portfolio is built using the following technologies and libraries:
