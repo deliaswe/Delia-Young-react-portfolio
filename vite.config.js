@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Delia-Young-react-portfolio',
+  // base: '/Delia-Young-react-portfolio',
   plugins: [react()],
     server: {
       port: 3000,
