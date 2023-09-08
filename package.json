@@ -1,11 +1,9 @@
 {
-  "homepage": "https://deliayoung.github.io/Delia-Young-react-portfolio/",
   "name": "delia-young-react-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",

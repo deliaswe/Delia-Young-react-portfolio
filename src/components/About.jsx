@@ -16,7 +16,7 @@ function About() {
                     >
                         <Image src={Avator} rounded fluid className='about-image' />
                     </Col>
-                    <Col xs={12} md={7}>
+                    <Col xs={12} md={8}>
                         <Card>
                             <Card.Body>
                                 <Card.Title className='text-center mb-4'>
