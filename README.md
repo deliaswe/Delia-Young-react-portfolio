@@ -22,7 +22,7 @@
 - Contact Information: Provide various ways for visitors to get in touch, such as email, LinkedIn, GitHub, and Twitter links.
 
 ## Usage
-https://github.com/deliaswe/Delia-Young-react-portfolio/assets/113808453/ab2c6618-427e-46db-ac4e-e513f14b1fc
+https://github.com/deliaswe/Delia-Young-react-portfolio/assets/113808453/45ede3c8-c7ed-4a4f-ab08-381f4f809b76
 
 ## Links
 - You can view the live portfolio website here: [Delia Young Portfolio](https://musical-twilight-14c777.netlify.app)
