@@ -1,5 +1,5 @@
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
-import Avator from './images/headshot.jpg';
+import headshot from '../assets/images/headshot.jpg';
 import '../style/About.css';
 
 function About() {
@@ -14,7 +14,7 @@ function About() {
                     md={4}
                     className='d-flex justify-content-center align-items-center mb-4 mb-md-0'
                     >
-                        <Image src={Avator} rounded fluid className='about-image' />
+                        <Image src={headshot} rounded fluid className='about-image' />
                     </Col>
                     <Col xs={12} md={8}>
                         <Card>
@@ -23,7 +23,7 @@ function About() {
                                     About Delia Young 
                                 </Card.Title>
                                 <Card.Text>
-                                Meet Delia Young—an enthusiastic and innovative software developer with a unique blend of experience in healthcare and interior architecture. Freshly minted from the Columbia University Full Stack Web Development Bootcamp, I bring an unwavering drive and meticulousness to everything I undertake. My insatiable curiosity fuels both my love for learning and my ardent creative spirit.
+                                Meet Delia Young (New Jersey)—an enthusiastic and innovative software developer with a unique blend of experience in healthcare and interior architecture. Freshly minted from the Columbia University Full Stack Web Development Bootcamp, I bring an unwavering drive and meticulousness to everything I undertake. My insatiable curiosity fuels both my love for learning and my ardent creative spirit.
                             </Card.Text>
                             <Card.Text>
                                 A collaborative team player by nature, I thrive in group settings, constantly seeking ways to refine my skills and expand my knowledge horizons. My journey has equipped me with a distinctive perspective, one that seamlessly fuses my passions: the artistry of architecture and design, the critical realm of healthcare, and the ever-evolving landscape of technology. This fusion drives me to craft web applications that effortlessly marry elegance with functionality. I am excited to bring my unique skill set to a team that values creativity, collaboration, and innovation.

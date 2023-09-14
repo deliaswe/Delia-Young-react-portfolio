@@ -13,3 +13,17 @@ color: #000000;
 margin-top: 100px;
 margin-bottom: 200px;
 }
+button {
+background-color: #3b939a; /* Button background color */
+color: #fff; /* Text color */
+padding: 10px 20px; /* Padding around text */
+border: none; /* button border */
+border-radius: 5px; /* Rounded corners */
+cursor: pointer; /* Show a pointer cursor on hover */
+font-size: 16px; /* Font size */
+}
+
+/* Hover effect */
+button:hover {
+background-color: #8e3863;
+}

@@ -1,10 +1,10 @@
 import Project from "./Project";
-import Deliascarblog from "./images/Delias-carblog.png";
-import sqlemployeetracker from "./images/sql-employee-tracker.png";
-import WeatherDashboard from "./images/WeatherDashboard.png";
-import WorkDayPlanner from "./images/WorkDayPlanner.png";
-import NoteTaker from "./images/NoteTaker.png";
-import MealFlick from "./images/MealFlick.png";
+import Deliascarblog from "../assets/images/Deliascarblog.png";
+import sqlemployeetracker from "../assets/images/sqlemployeetracker.png";
+import WeatherDashboard from "../assets/images/WeatherDashboard.png";
+import WorkDayPlanner from "../assets/images/WorkDayPlanner.png";
+import NoteTaker from "../assets/images/NoteTaker.png";
+import MealFlick from "../assets/images/MealFlick.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/Portfolio.css';
 

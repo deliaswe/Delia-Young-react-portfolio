@@ -5,23 +5,18 @@ margin-top: 1rem;
 margin-bottom: 1rem;
 font-size: 50px;
 }
-/* styling for the custom send message buttom */
-.custom-send-message-button {
-background-color: #821350;
-color: white;
-border: none;
-border-radius: 10px;
-padding: 15px 20px;
-font-size: 18px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-margin: 6px 4px;
-cursor: pointer;
-transition-duration: 0.4s;
+
+.custom-send-button {
+background-color: #d454b0; /* Button background color */
+color: #fff; /* Text color */
+padding: 10px 20px; /* Padding around text */
+border: none; /* Remove button border */
+border-radius: 5px; /* Rounded corners */
+cursor: pointer; /* Show a pointer cursor on hover */
+font-size: 16px; /* Font size */
 }
-/* styling for the custom send message buttom when hovered over */
-.custom-send-message-button:hover {
-background-color: #e8da41;
-color: white;
+
+/* Hover effect */
+.custom-send-button:hover {
+background-color: #219a8e; /* Button background color on hover */
 }
