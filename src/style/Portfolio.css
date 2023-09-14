@@ -84,4 +84,9 @@ background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+
 }
 .col-12:hover {
   transform: scale(1.05);
+  border: 10px solid var(--secondary);
+  box-shadow: 0px 0px 20px 5px var(--tertiary);
+  transition: all 0.7s ease;
+  opacity: 80%;
 }
+/* hover over work articles: make glow and lower image opacity */
