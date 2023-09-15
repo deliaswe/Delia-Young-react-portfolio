@@ -78,7 +78,7 @@ function Resume() {
                 <hr className='star-secondary' />
                 <div className='resume-item'>
                 <h4>Atlantic Health System, Clinical Lab Assistant I</h4>
-                <h5>Morriston, NJ, Nov 2022 - Present</h5>
+                <h5>Morristown, NJ, Nov 2022 - Present</h5>
                 <p>See downloaded resume</p>
                 </div>
                 <div className='resume-item'>
@@ -88,7 +88,7 @@ function Resume() {
                 </div>
                 <div className='resume-item'>
                 <h4>Atlantic Health System, Clinical Lab Assistant I</h4>
-                <h5>Morriston, NJ, May 2015 - Mar 2022</h5>
+                <h5>Morristown, NJ, May 2015 - Mar 2022</h5>
                 <p>See downloaded resume</p>
                 </div>
                 <div className='resume-item'>

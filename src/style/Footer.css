@@ -85,14 +85,6 @@ transform: translateY(-10px);
 animation: bounce 1s infinite;
 }
 
-
-.workLink {
-margin: 20px;
-font-size: 120%;
-}
-
-.workLink:hover {
-color: var(--text);
-padding: 20px;
-background: rgba(198, 113, 113, 0.4);
+.icon:hover {
+background: rgba(208, 127, 169, 0.4);
 }
