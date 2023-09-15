@@ -27,6 +27,9 @@ function Footer() {
                 <section className='form-footer'>
                     <h5 className='designer-text'>Designed by 👩🏾‍🎨 Delia Young</h5>
                         <h6 className='copyright-text'>&copy; {new Date().getFullYear()} All rights reserved.</h6>
+                        <p align="center"> 
+    <img align="center" src="https://komarev.com/ghpvc/?username=Delia-Young-portfolio&color=yellow&style=flat-square" alt="Delia-Young-portfolio profile views" />
+</p>
                 </section>
                 </div>
         </footer>
