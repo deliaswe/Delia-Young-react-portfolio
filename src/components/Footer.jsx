@@ -28,8 +28,8 @@ function Footer() {
                     <h5 className='designer-text'>Designed by 👩🏾‍🎨 Delia Young</h5>
                         <h6 className='copyright-text'>&copy; {new Date().getFullYear()} All rights reserved.</h6>
                         <p align="center"> 
-    <img align="center" src="https://komarev.com/ghpvc/?username=Delia-Young-portfolio&color=yellow&style=flat-square" alt="Delia-Young-portfolio profile views" />
-</p>
+                        <img align="center" src="https://komarev.com/ghpvc/?username=deliaswe&color=ff69b4&style=flat-square" alt="deliaswe profile views" />
+                    </p>
                 </section>
                 </div>
         </footer>
