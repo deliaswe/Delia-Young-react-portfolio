@@ -27,9 +27,7 @@ function Footer() {
                 <section className='form-footer'>
                     <h5 className='designer-text'>Designed by 👩🏾‍🎨 Delia Young</h5>
                         <h6 className='copyright-text'>&copy; {new Date().getFullYear()} All rights reserved.</h6>
-                        <p align="center"> 
-                        <img align="center" src="https://komarev.com/ghpvc/?username=deliaswe&color=ff69b4&style=flat-square" alt="deliaswe profile views" />
-                    </p>
+                        <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fdelia-young-portfolio.netlify.app%2F"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fdelia-young-portfolio.netlify.app%2F&label=Portfolio%20Views&labelColor=%23000000&countColor=%23f47373&style=plastic&labelStyle=none" /></a>
                 </section>
                 </div>
         </footer>
