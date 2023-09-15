@@ -2,6 +2,7 @@ import '../style/Footer.css';
 import linkedin from '../assets/images/linkedin.png';
 import github from '../assets/images/github.png';
 import Twitterx from '../assets/images/Twitterx.jpg';
+import email from '../assets/images/email.jpeg';
 
 function Footer() {
     return (
@@ -16,6 +17,9 @@ function Footer() {
             </a>
             <a href="https://twitter.com/Delia_marlena_" target="blank">
             <img src={Twitterx} alt="Twitterx" className="icon" />
+            </a>
+            <a href="mailto:deliamy1014@gmail.com" target="blank">
+            <img src={email} alt="email" className="icon" />
             </a>
             </div>
             <section className='form-container'>
