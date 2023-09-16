@@ -3,8 +3,8 @@ import Deliascarblog from "../assets/images/Deliascarblog.png";
 import sqlemployeetracker from "../assets/images/sqlemployeetracker.png";
 import WeatherDashboard from "../assets/images/WeatherDashboard.png";
 import WorkDayPlanner from "../assets/images/WorkDayPlanner.png";
-import NoteTaker from "../assets/images/NoteTaker.png";
-import MealFlick from "../assets/images/MealFlick.jpg";
+import booksearch from "../assets/images/booksearch.png";
+import MealFlick from "../assets/images/MealFlick.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/Portfolio.css';
 
@@ -25,10 +25,10 @@ function Portfolio() {
                             githubLink: 'https://github.com/deliaswe/MVC-Technology-Blog',
                         },
                         {
-                            title: 'MealFlick',
-                            imgSrc: MealFlick,
-                            deployedLink: ' https://vlada-caban.github.io/meal-flick/',
-                            githubLink: 'https://github.com/deliaswe/meal-flick',
+                            title: 'Book Search Engine',
+                            imgSrc: booksearch,
+                            deployedLink: '/',
+                            githubLink: 'https://github.com/deliaswe/BookSearch-engine',
                         },
                         {
                             title: 'Weather Dashboard',
@@ -43,10 +43,10 @@ function Portfolio() {
                             githubLink: 'https://github.com/deliaswe/sql-employee-tracker/blob/main/README.md',
                         },
                         {
-                            title: 'Note Taker',
-                            imgSrc: NoteTaker,
-                            deployedLink: 'https://delia-note-taker-425424db1210.herokuapp.com/',
-                            githubLink: 'https://github.com/deliaswe/note-taker',
+                            title: 'MealFlick',
+                            imgSrc: MealFlick,
+                            deployedLink: ' https://vlada-caban.github.io/meal-flick/',
+                            githubLink: 'https://github.com/deliaswe/meal-flick',
                         },
                         {
                             title: 'Work Day Planner',
