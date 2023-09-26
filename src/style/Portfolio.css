@@ -18,7 +18,7 @@ background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+
 }
   /* Styling for card element */
 .card {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(219, 33, 33, 0.1);
     border: none;
     border-radius: 4px;
     text-align: center;
@@ -85,7 +85,7 @@ background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+
 .col-12:hover {
   transform: scale(1.05);
   border: 10px solid var(--secondary);
-  box-shadow: 0px 0px 20px 5px var(--tertiary);
+  box-shadow: 0px 0px 20px 5px whitesmoke;
   transition: all 0.7s ease;
   opacity: 80%;
 }

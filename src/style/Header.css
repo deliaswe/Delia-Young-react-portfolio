@@ -52,3 +52,11 @@
     margin-bottom: 0;
     padding: 10px;
 }
+
+/* Add this CSS to your stylesheet */
+h1 img,
+h2 img {
+    width: 75px; /* Set the width to your desired size */
+    height: auto; /* Auto-adjust the height to maintain aspect ratio */
+    box-shadow: 0 0 20px whitesmoke; /* Adjust the color and size as needed */
+}
