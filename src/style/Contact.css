@@ -7,16 +7,33 @@ font-size: 50px;
 }
 
 .custom-send-button {
-background-color: #d454b0; /* Button background color */
+background-color: black; /* Button background color */
 color: #fff; /* Text color */
 padding: 10px 20px; /* Padding around text */
 border: none; /* Remove button border */
 border-radius: 5px; /* Rounded corners */
 cursor: pointer; /* Show a pointer cursor on hover */
 font-size: 16px; /* Font size */
+
+/* Animation for glowing ring */
+position: relative;
+overflow: hidden;
+animation: glowing-ring 2s linear infinite;
+}
+
+@keyframes glowing-ring {
+0% {
+    box-shadow: 0 0 5px whitesmoke; /* Initial shadow */
+}
+50% {
+    box-shadow: 0 0 20px 10px blue; /* Max shadow (glow) */
+}
+100% {
+    box-shadow: 0 0 5px 0 purple; /* Back to initial shadow */
+}
 }
 
 /* Hover effect */
-.custom-send-button:hover {
-background-color: #219a8e; /* Button background color on hover */
+.custom-send-button:hover { /* Button background color on hover */
+background-color: transparent;
 }

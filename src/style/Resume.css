@@ -14,16 +14,33 @@ margin-top: 100px;
 margin-bottom: 200px;
 }
 button {
-background-color: #3b939a; /* Button background color */
+background-color: black; /* Button background color */
 color: #fff; /* Text color */
 padding: 10px 20px; /* Padding around text */
 border: none; /* button border */
 border-radius: 5px; /* Rounded corners */
 cursor: pointer; /* Show a pointer cursor on hover */
 font-size: 16px; /* Font size */
+
+/* Animation for glowing ring */
+position: relative;
+overflow: hidden;
+animation: glowing-ring 3s linear infinite;
+}
+
+@keyframes glowing-ring {
+0% {
+    box-shadow: 0 0 5px 0 whitesmoke; /* Initial shadow */
+}
+50% {
+    box-shadow: 0 0 15px 10px #8e3863; /* Max shadow (glow) */
+}
+100% {
+    box-shadow: 0 0 5px 0 wheat; /* Back to initial shadow */
+}
 }
 
 /* Hover effect */
 button:hover {
-background-color: #8e3863;
+background-color: transparent;
 }

@@ -4,7 +4,7 @@ border-color: gradient(90deg, rgb(223, 223, 231) 0%, rgb(193, 27, 198) 0%, rgba(
 }
 /* navbar toggler icon */
 .navbar-toggler-icon {
-background-color: #000000;
+background-color: transparent;
 }
 /* background color and text color for body element */
 body {

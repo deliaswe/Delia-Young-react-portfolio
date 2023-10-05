@@ -86,5 +86,21 @@ animation: bounce 1s infinite;
 }
 
 .icon:hover {
-background-color: #a98988;
+background-color: transparent;
+/* Animation for glowing ring */
+position: relative;
+overflow: hidden;
+animation: glowing-ring 2s linear infinite;
+}
+
+@keyframes glowing-ring {
+0% {
+    box-shadow: 0 0 5px whitesmoke; /* Initial shadow */
+}
+50% {
+    box-shadow: 0 0 20px 10px wheat; /* Max shadow (glow) */
+}
+100% {
+    box-shadow: 0 0 5px 0 purple; /* Back to initial shadow */
+}
 }
