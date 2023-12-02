@@ -6,7 +6,7 @@ function Resume() {
     <section id='resume'>
         <p>View my resume here</p>
         <a
-        href='https://drive.google.com/file/d/1JoU6FXMc32LxewdHJZLcSc0HEgpb7m8U/view?usp=sharing'
+        href='https://drive.google.com/file/d/1gfX8DLvUiU__3PpgGzYqKzapLSQlT3ds/view?usp=sharing'
         target='_blank'
         rel='noreferrer'
         >
