@@ -32,7 +32,7 @@ function About() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={10} md={8}>
+                    <Col xs={12} md={8} className='mx-auto mt-4'>
                         <Card>
                             <Card.Body>
                                 <Card.Title className='text-center mb-4'>
