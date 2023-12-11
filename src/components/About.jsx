@@ -1,6 +1,6 @@
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import headshot from '../assets/images/headshot.jpg';
-import columbiacert from '../assets/images/columbiacert.jpg';
+import columbiacert from '../assets/images/columbiacert.png';
 import '../style/About.css';
 
 function About() {
@@ -27,7 +27,7 @@ function About() {
                                 Meet Delia Young (New Jersey)—an enthusiastic and innovative software developer with a unique blend of experience in healthcare and interior architecture. Freshly minted from the Columbia Engineering Full Stack Web Development Bootcamp, I bring an unwavering drive and meticulousness to everything I undertake. My insatiable curiosity fuels both my love for learning and my ardent creative spirit.
                             </Card.Text>
                             <Card.Text>
-                                A collaborative team player by nature, I thrive in group settings, constantly seeking ways to refine my skills and expand my knowledge horizons. My journey has equipped me with a distinctive perspective, one that seamlessly fuses my passions: the artistry of architecture and design, the critical realm of healthcare, and the ever-evolving landscape of technology. This fusion drives me to craft web applications that effortlessly marry elegance with functionality. I am excited to bring my unique skill set to a team that values creativity, collaboration, and innovation....
+                                A collaborative team player by nature, I thrive in group settings, constantly seeking ways to refine my skills and expand my knowledge horizons. My journey has equipped me with a distinctive perspective, one that seamlessly fuses my passions: the artistry of architecture and design, the critical realm of healthcare, and the ever-evolving landscape of technology. This fusion drives me to craft web applications that effortlessly marry elegance with functionality. I am excited to bring my unique skill set to a team that values creativity, collaboration, and innovation.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
