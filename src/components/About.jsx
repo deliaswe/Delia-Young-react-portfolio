@@ -36,7 +36,7 @@ function About() {
                         <Card>
                             <Card.Body>
                                 <Card.Title className='text-center mb-4'>
-                                    Education
+                                    Cert
                                 </Card.Title>
                                 <Card.Text>
                                     <h5>Columbia Engineering</h5>
@@ -48,7 +48,7 @@ function About() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={12}>
+                    <Col xs={12} md={8}>
                     </Col>
                 </Row>
             </Container>
