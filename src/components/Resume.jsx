@@ -105,7 +105,7 @@ function Resume() {
                 <div className='resume-item'>
                 <h4>New York School of Interior Design, Interior Architecture</h4>
                 <h5>New York, NY, 2019 - 2021</h5>
-                <p>Certificate</p>
+                <p>Associate in Applied Science</p>
             </div>
             </Col>
         </Row>
